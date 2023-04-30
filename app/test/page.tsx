@@ -12,7 +12,7 @@ export default function portfolio() {
       {projectName?.map((item, idx) => {
         return (
           <div className="portfolio" key={idx}>
-            {item}
+            TITLE: {item}
           </div>
         );
       })}
